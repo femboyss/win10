@@ -103,6 +103,3 @@ irm https://raw.githubusercontent.com/femboyss/win10/main/winrar.ps1 | iex
 
 
 
-## (Ignore this)
-Random Characters of how much i raged making this:
-kmasdm kas dmasmdmkasdmkasd as dmkad mad masd mkdsamkjn sfadm knfdsw m kdrfgws mk werfgo jnmfrwe onjroj newn jefjn mrfv  kjmndfrs  ojnrwf jnirfw  jinf drwj inkdsf  jkmdfs kj ndsf kj nmsdfkj newdfk jnewfnji efwojn ewfjin efwijn fewjkn fewjin fewji nfewijn efwjni wefjefwjin feijn ef wjin few ijn efw ijn fe wijn fewijn fe win jefw jin fe wij nfewji n few oipjm adsfojk ew dfj nieqf ijunewfjin fewrjn ef w njoewf okjmn efw jnkirfg jnfrgsvjok ndfs kjndsafkj mndfsa kjmnasdfk jmnasdfk jnmsad kjnsdaj nkisad  jnisad njkdsaf jefdo kljfe okefw oijkefdwro ikjefo iklfewo klifew kfew kloife kiofeq okijfeqok ijfe ok imjefwoi kjfewn pkiwefdvnko pfewokn efdwnokjdaf okjn dsafonkj dasfojlk ndsafkn ojmsadfjklon sadfn jkomasfdon jsadfojnk lasdf okjn df  onjk
