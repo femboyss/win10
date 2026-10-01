@@ -1,6 +1,6 @@
 echo  "Dev: ionuttbara"
 echo  "GitHub: github.com/ionuttbara"
-echo  "Thanks for using https://github.com/archlinux-dev/win10!"
+echo  "Thanks for using https://github.com/femboyss/win10!"
 
 @(set "0=%~f0"^)#) & powershell -nop -c iex([io.file]::ReadAllText($env:0)) & exit /b
 #:: some parts of code are taken in AveYo's Edge Removal Script, uses 2023.09.09 version.

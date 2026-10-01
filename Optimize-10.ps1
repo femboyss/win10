@@ -1,6 +1,6 @@
 echo  "Dev: Chris Titus"
 echo  "Website: https://christitus.com"
-echo  "Thanks for using https://github.com/archlinux-dev/win10!"
+echo  "Thanks for using https://github.com/femboyss/win10!"
 
 param (
     [string]$Config,
@@ -15255,7 +15255,7 @@ CCC::::::::::::C         T:::::::::T            T:::::::::T
 ====Chris Titus Tech=====
 =====Windows Toolbox=====
 
-====  archlinux-dev Launcher  =====
+====  femboyss Launcher  =====
 "@
 
 # Load the configuration files

@@ -1,6 +1,6 @@
 echo  "Dev: captainfahim7"
 echo  "GitHub: github.com/captainfahim7"
-echo  "Thanks for using https://github.com/archlinux-dev/win10!"
+echo  "Thanks for using https://github.com/femboyss/win10!"
 # Enable TLSv1.2 for compatibility with older clients
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor [System.Net.SecurityProtocolType]::Tls12
 
