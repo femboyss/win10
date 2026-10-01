@@ -1,6 +1,6 @@
 echo  "Dev: 1sam11"
 echo  "Website: github.com/1sam11/"
-echo  "Thanks for using https://github.com/archlinux-dev/win10!"
+echo  "Thanks for using https://github.com/femboyss/win10!"
 
 #echo "This Script is currently broken!! Please try again later!!!#
 

@@ -1,6 +1,6 @@
 echo  "Dev: SpotX"
 echo  "Website: https://github.com/SpotX-Official/SpotX"
-echo  "Thanks for using https://github.com/archlinux-dev/win10!"
+echo  "Thanks for using https://github.com/femboyss/win10!"
 @echo off
 
 :: Line for changing spotx parameters, each parameter should be separated by a space
