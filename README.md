@@ -1,8 +1,5 @@
 # Powerful Tools, all in one Repo
-### (And a Tutorial on how to run)
 ## (Also By the Way we do not own any of the scripts and attempt to credit the Devs / Owners)
-# ALL TOOLS ARE FOR WINDOWS 10 AND WINDOWS 11
-### (We just haven't changed the names cause we don't want to replace EVERY mention of the URL / Link)
 
 # Menu - Recommended
 ```powershell
@@ -97,6 +94,11 @@ irm https://raw.githubusercontent.com/femboyss/win10/main/mullvadvpn.ps1 | iex
 ## Install Malwarebytes
 ````powershell
 irm https://raw.githubusercontent.com/femboyss/win10/main/malwarebytes.ps1 | iex
+````
+
+## Install Malwarebytes AdwCleaner
+````powershell
+irm https://raw.githubusercontent.com/femboyss/win10/main/malwarebytesadwcleaner.ps1 | iex
 ````
 
 # Install Winget (Will Be Used for Most Downloads)
