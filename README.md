@@ -84,6 +84,21 @@ irm https://raw.githubusercontent.com/femboyss/win10/main/winrar.ps1 | iex
 irm https://raw.githubusercontent.com/femboyss/win10/main/expressvpn.ps1 | iex
 ````
 
+## NordVPN Download
+````powershell
+irm https://raw.githubusercontent.com/femboyss/win10/main/nordvpn.ps1 | iex
+````
+
+## Install MullvadVPN
+````powershell
+irm https://raw.githubusercontent.com/femboyss/win10/main/mullvadvpn.ps1 | iex
+````
+
+## Install Malwarebytes
+````powershell
+irm https://raw.githubusercontent.com/femboyss/win10/main/malwarebytes.ps1 | iex
+````
+
 # Install Winget (Will Be Used for Most Downloads)
 ````powershell
 irm https://raw.githubusercontent.com/femboyss/win10/main/installwinget.ps1 | iex
