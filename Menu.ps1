@@ -18,6 +18,7 @@ do {
     Write-Host "12. Remove Windows Defender"
     Write-Host "13. Install System Informer"
     Write-Host "14. WinRar Cracked (Needs WinRaR Installed)"
+    Write-Host "15. Install ExpressVPN"
     Write-Host ""
     Write-Host "Q. Exit" -ForegroundColor Red
     Write-Host ""
@@ -38,6 +39,7 @@ do {
         "12" { irm https://raw.githubusercontent.com/femboyss/win10/main/removedefender.ps1 | iex }
         "13" { irm https://raw.githubusercontent.com/femboyss/win10/main/sysinfo.ps1 | iex }
         "14" { irm https://raw.githubusercontent.com/femboyss/win10/main/winrar.ps1 | iex }
+        "15" { irm https://raw.githubusercontent.com/femboyss/win10/main/expressvpn.ps1 | iex }
         "Q" { break }
         default { Write-Host "Invalid choice" -ForegroundColor Red; Start-Sleep -Seconds 1 }
     }
