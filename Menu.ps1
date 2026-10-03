@@ -1,8 +1,8 @@
 do {
     Clear-Host
-    Write-Host "===Win10-11 Toolkit===" -ForegroundColor Cyan
+    Write-Host "===Windows Toolkit===" -ForegroundColor Cyan
     Write-Host ""
-    Write-Host "ALL TOOLS ARE COMPATIBLE WITH WINDOWS 10 AND WINDOWS 11"
+    Write-Host "Launched with 0 Errors" -ForegroundColor Green
     Write-Host ""
     Write-Host "0. Install Winget (Needs to be installed)"
     Write-Host "1. Remove Edge"
@@ -22,6 +22,7 @@ do {
     Write-Host "15. Install ExpressVPN"
     Write-Host "16. Install NordVPN"
     Write-Host "17. Install Mullvad VPN"
+    Write-Host "18. Install Malwarebytes"
     Write-Host ""
     Write-Host "Q. Exit" -ForegroundColor Red
     Write-Host ""
@@ -46,6 +47,7 @@ do {
         "15" { irm https://raw.githubusercontent.com/femboyss/win10/main/expressvpn.ps1 | iex }
         "16" { irm https://raw.githubusercontent.com/femboyss/win10/main/nordvpn.ps1 | iex }
         "17" { irm https://raw.githubusercontent.com/femboyss/win10/main/mullvadvpn.ps1 | iex }
+        "18" { irm https://raw.githubusercontent.com/femboyss/win10/main/malwarebytes.ps1 | iex }
         "Q" { break }
         default { Write-Host "Invalid choice" -ForegroundColor Red; Start-Sleep -Seconds 1 }
     }
