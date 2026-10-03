@@ -83,9 +83,11 @@ irm https://raw.githubusercontent.com/femboyss/win10/main/winrar.ps1 | iex
 ````powershell
 irm https://raw.githubusercontent.com/femboyss/win10/main/expressvpn.ps1 | iex
 ````
-## Also feel free to comment and tell us what to add next!
 
-
+# Install Winget (Will Be Used for Most Downloads)
+````powershell
+irm https://raw.githubusercontent.com/femboyss/win10/main/installwinget.ps1 | iex
+````
 
 
 
