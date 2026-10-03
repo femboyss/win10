@@ -78,6 +78,11 @@ irm https://raw.githubusercontent.com/femboyss/win10/main/sysinfo.ps1 | iex
 ```powershell
 irm https://raw.githubusercontent.com/femboyss/win10/main/winrar.ps1 | iex
 ```
+
+## ExpressVPN Download
+````powershell
+irm https://raw.githubusercontent.com/femboyss/win10/main/expressvpn.ps1 | iex
+````
 ## Also feel free to comment and tell us what to add next!
 
 
