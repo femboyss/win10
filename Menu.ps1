@@ -1,6 +1,3 @@
-# Windows Toolkit menu
-# Usage (PowerShell): irm https://raw.githubusercontent.com/femboyss/win10/main/Menu.ps1 | iex
-
 $BaseUrl = "https://raw.githubusercontent.com/femboyss/win10/main"
 
 # Older Windows 10 builds may not use TLS 1.2 by default
