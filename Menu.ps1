@@ -23,6 +23,7 @@ do {
     Write-Host "16. Install NordVPN"
     Write-Host "17. Install Mullvad VPN"
     Write-Host "18. Install Malwarebytes"
+    Write-Host "19. Install Malwarebytes AdwCleaner"
     Write-Host ""
     Write-Host "Q. Exit" -ForegroundColor Red
     Write-Host ""
@@ -48,6 +49,7 @@ do {
         "16" { irm https://raw.githubusercontent.com/femboyss/win10/main/nordvpn.ps1 | iex }
         "17" { irm https://raw.githubusercontent.com/femboyss/win10/main/mullvadvpn.ps1 | iex }
         "18" { irm https://raw.githubusercontent.com/femboyss/win10/main/malwarebytes.ps1 | iex }
+        "19" { irm https://raw.githubusercontent.com/femboyss/win10/main/malwarebytesadwcleaner.ps1 | iex }
         "Q" { break }
         default { Write-Host "Invalid choice" -ForegroundColor Red; Start-Sleep -Seconds 1 }
     }
