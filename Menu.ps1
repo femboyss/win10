@@ -1,9 +1,10 @@
 do {
     Clear-Host
-    Write-Host "=== Win10-11 Toolkit ===" -ForegroundColor Cyan
+    Write-Host "===Win10-11 Toolkit===" -ForegroundColor Cyan
     Write-Host ""
     Write-Host "ALL TOOLS ARE COMPATIBLE WITH WINDOWS 10 AND WINDOWS 11"
     Write-Host ""
+    Write-Host "0. Install Winget (Needs to be installed)"
     Write-Host "1. Remove Edge"
     Write-Host "2. Activate Windows"
     Write-Host "3. Optimize Windows 10 / 11"
@@ -19,12 +20,15 @@ do {
     Write-Host "13. Install System Informer"
     Write-Host "14. WinRar Cracked (Needs WinRaR Installed)"
     Write-Host "15. Install ExpressVPN"
+    Write-Host "16. Install NordVPN"
+    Write-Host "17. Install Mullvad VPN"
     Write-Host ""
     Write-Host "Q. Exit" -ForegroundColor Red
     Write-Host ""
     $choice = Read-Host "Choose"
 
     switch ($choice) {
+        "0" { irm https://raw.githubusercontent.com/femboyss/win10/main/installwinget.ps1 | iex }
         "1" { irm https://raw.githubusercontent.com/femboyss/win10/main/Remove-Edge.ps1 | iex }
         "2" { irm https://raw.githubusercontent.com/femboyss/win10/main/Activ-Win.ps1 | iex }
         "3" { irm https://raw.githubusercontent.com/femboyss/win10/main/Optimize-10.ps1 | iex }
@@ -40,6 +44,8 @@ do {
         "13" { irm https://raw.githubusercontent.com/femboyss/win10/main/sysinfo.ps1 | iex }
         "14" { irm https://raw.githubusercontent.com/femboyss/win10/main/winrar.ps1 | iex }
         "15" { irm https://raw.githubusercontent.com/femboyss/win10/main/expressvpn.ps1 | iex }
+        "16" { irm https://raw.githubusercontent.com/femboyss/win10/main/nordvpn.ps1 | iex }
+        "17" { irm https://raw.githubusercontent.com/femboyss/win10/main/mullvadvpn.ps1 | iex }
         "Q" { break }
         default { Write-Host "Invalid choice" -ForegroundColor Red; Start-Sleep -Seconds 1 }
     }
